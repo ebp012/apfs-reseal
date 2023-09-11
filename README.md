@@ -12,9 +12,9 @@ sudo xcodebuild -license accept
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-brew tap esolitos/ipa
+brew tap hudochenkov/sshpass
 
-brew install esolitos/ipa/sshpass libimobiledevice jq python3
+brew install hudochenkov/sshpass/sshpass libimobiledevice jq python3
 
 sudo python3 -m pip install pyimg4 remotezip
 
